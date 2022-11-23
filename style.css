@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&family=Lato:wght@100;300;400;700&family=Nunito:ital,wght@0,200;0,300;0,600;1,300&family=Open+Sans:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+body div a {
+  color: black;
+  text-decoration: none;
+}
+body div a:hover {
+  color: purple;
+  text-decoration: none;
+}
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.top-part div {
+  display: flex;
+}
+.top-part div button {
+  border: none;
+  background-color: #24a0ed;
+  padding: 5px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.top-part div button:hover {
+  background-color: aqua;
+}
+.top-part div a {
+  padding: 5px;
+}
+/*middle part of the page*/
+.middle-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 70vh;
+}
+.middle-part input {
+  position: absolute;
+  margin-top: 110px;
+  width: 30%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 25px;
+  outline: none;
+  padding: 0 10px;
+}
+.middle-part span {
+  position: relative;
+  cursor: pointer;
+  left:270px;
+  top:-44px
+}
+.middle-part button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.middle-part button:hover{
+  background-color: lightgray;
+}
+/*footer*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer div a {
+    padding:0px 5px ;
+}
+footer div a:hover {
+  color:grey;
+}
